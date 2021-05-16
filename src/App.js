@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div>
-      {!sessionStorage.noFirstVisit &&
+      {sessionStorage.noFirstVisit &&
       <Anime
         initial={[
           {
