@@ -100,12 +100,6 @@ function App() {
       </Anime>}
       {loadStatus && <Anime
         initial={[
-          // {
-          //   targets: '#nav-area',
-          //   opacity: [0,1],
-          //   easing: 'easeOutExpo',
-          //   duration: 1000
-          // }
           {
             targets: 'header',
             translateX:'100%',
